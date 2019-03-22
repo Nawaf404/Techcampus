@@ -1,3 +1,6 @@
+Login = "GitHub"
 name = str(input('Enter ur name ')
-if name == name :
-print("Welcome " + name )
+if name == Login :
+print("Welcome " + Login )
+else : 
+           print("Error")
