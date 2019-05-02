@@ -1,0 +1,7 @@
+print("Hello World ! " + "\n" ) 
+URname = input("Hello User What's ur name ? :" + "\n")
+print("Hello " + URname + " Nice to meet u :) " + "\n")
+print("OK Let's Start :) " + "\n")
+Words  = input("Enter Your Words" + "\n")
+x = len(Words)
+print(x)
