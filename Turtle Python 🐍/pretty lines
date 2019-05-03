@@ -1,0 +1,29 @@
+# built lines with colors
+
+import turtle
+
+# 1 firsr step - You have choose moudel
+
+amy = turtle.Turtle()
+
+amy.width(5)
+# to make a font : bold
+
+amy.penup()
+amy.back(140)
+amy.pendown()
+
+# Draw three red lines, with space in between
+
+for prettycolor in ["red","yellow","orange"]:
+    amy.color(prettycolor)
+    amy.forward(50)
+    amy.penup()
+    amy.forward(50)
+    amy.pendown()
+    
+    # End COde . . Good Luck 
+    # some strangers codes : 
+    # (penup) for left the pen
+    # pendown ( down pen )
+    # forward ( for move to forward )
