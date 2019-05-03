@@ -1,0 +1,15 @@
+import turtle
+terry = turtle.Turtle()
+terry.width(10)
+
+rainbow = ["red", "orange", "yellow", "green", "blue", "purple"]
+
+# draw Rainbow
+
+for prettycolor in rainbow :
+        terry.color(prettycolor)
+        terry.forward(100)
+        terry.right(60)
+terry.hideturtle()
+
+# to hide turtle
