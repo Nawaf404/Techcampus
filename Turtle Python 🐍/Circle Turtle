@@ -1,0 +1,16 @@
+## Today we will draw a Circle By Turtle ! < We will try
+
+## Code ..
+
+import turtle
+>>> circle = turtle.Turtle()
+>>> pretty_color = "red"
+>>> circle.width(5)
+>>> circle.speed(0)
+>>> circle.color(pretty_color)
+>>> sides = range(512)
+>>> for side in sides:
+	circle.forward(1)
+	circle.right(0.7)
+  
+  << will draw >)
