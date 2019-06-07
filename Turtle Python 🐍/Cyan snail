@@ -1,0 +1,9 @@
+>>> import turtle
+>>> ti = turtle.Turtle()
+>>> ti.color("cyan")
+>>> ti.width(2)
+>>> for side in range(19):
+	ti.forward(side*10)
+	ti.right(120)
+  
+  ## Try ! 
