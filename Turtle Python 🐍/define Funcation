@@ -7,3 +7,25 @@ def spiral():
         kelly.right(20)
 ## Here will define funcation
 spiral()
+.....
+## with weidth :)
+import turtle
+def square(sides, turn, color , weidth):
+    telly = turtle.Turtle()
+    telly.color(color)
+    telly.width(weidth)
+    for n in range(sides):
+        telly.forward(n)
+        telly.right(turn)
+square(100,45,"red",10)
+
+## without wedith :( , copy what you want
+
+import turtle
+def square(sides, turn,):
+    telly = turtle.Turtle()
+    telly.color("blue")
+    for n in range(sides):
+        telly.forward(n)
+        telly.right(turn)
+square(100,45)
