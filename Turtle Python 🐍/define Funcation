@@ -1,0 +1,9 @@
+import turtle
+def spiral():
+    kelly = turtle.Turtle()
+    kelly.color("cyan")
+    for n in range(100):
+        kelly.forward(n)
+        kelly.right(20)
+## Here will define funcation
+spiral()
