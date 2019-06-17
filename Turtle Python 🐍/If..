@@ -1,0 +1,10 @@
+import turtle
+def square():
+    kelly = turtle.Turtle()
+    kelly.color("cyan")
+    for side in range(4):
+        if side == 3 :
+            kelly.color("brown")
+        kelly.forward(100)
+        kelly.right(90)
+square()
