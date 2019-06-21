@@ -1,0 +1,17 @@
+import datetime
+Year = datetime.datetime.now().year
+Month = datetime.datetime.now().month
+Day = datetime.datetime.now().day
+YearOfUser = int(input("Enter Years Please : "))
+MonthOfUser =  int(input("Enter Month Please : "))
+DayOfUser =  int(input("Enter Day Please : "))
+getYear = Year - int(YearOfUser)
+getMonth = Month - int(MonthOfUser)
+getDay = Day - int(DayOfUser)
+print("Thanks Useer , Here is Your information "
+    ,"\n",
+      "........."
+      ,
+      "\n"
+      ,
+      "Your BirtdhDay :","\n","Year : " ,getYear ,"\n","Month : ", getMonth,"\n" ,"Day : " ,getDay )
