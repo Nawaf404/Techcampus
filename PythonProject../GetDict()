@@ -1,0 +1,10 @@
+def main():
+    dict()
+    dic = {'name':'python','age':'1991','source?':'open','for what ? ':'web,GUI,Scripting','high or low'
+    :'high','whats code for display on Screen?':'print'}
+    Words = ('name','age','source?','for what ? ','high or low','whats code for display on Screen?')
+    print(Words, "\n", "choose","\n")
+    User = input("Type word : ")
+    Transfer = dic.get(User)
+    print(Transfer)
+main()
