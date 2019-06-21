@@ -1,5 +1,0 @@
-import datetime
-Year = datetime.datetime.now().year
-user = input("Enter Your Birth Please : ")
-counting = Year - int(user)
-print("Your Birth is : ", counting )
